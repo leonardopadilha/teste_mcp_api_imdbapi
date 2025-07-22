@@ -40,7 +40,7 @@ python cliente_imdbapi.py
 - Avaliação de filmes baseada no rating 
 
 
-3. **Arquivo JSON para inclusão do MCP:**
+## Arquivo JSON para inclusão do MCP
 ```
 {
   "mcpServers": {
