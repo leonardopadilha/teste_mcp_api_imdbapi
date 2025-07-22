@@ -38,3 +38,22 @@ python cliente_imdbapi.py
 - Obtenção de detalhes de filmes/séries
 - Integração com OpenAI para respostas em linguagem natural
 - Avaliação de filmes baseada no rating 
+
+
+3. **Arquivo JSON para inclusão do MCP:**
+```
+{
+  "mcpServers": {
+    "busca-titulos-imdb": {
+      "command": "C:\\Caminho\\uv.exe",
+      "args": [
+        "--directory",
+        "D:\\pasta\\local-do-arquivo",
+        "run",
+        "servidor_imdbapi.py"
+      ],
+      "description": "Um servidor MCP que faz buscas na API IMDB."
+    }
+  }
+}
+```

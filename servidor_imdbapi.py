@@ -1,4 +1,3 @@
-import os
 import requests
 from fastmcp import FastMCP
 
@@ -35,7 +34,7 @@ def search_title(title: str) -> dict:
   return info_imdb
 
 @servidor_mcp.tool()
-def details_title(id_title_imdb) -> dict:
+def details_title(id_title_imdb: str) -> dict:
   url = f"{BASE_URL}/titles/{id_title_imdb}"
   response = requests.get(url)
 
