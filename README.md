@@ -57,3 +57,10 @@ python cliente_imdbapi.py
   }
 }
 ```
+
+**Links para pesquisa**
+```
+https://gofastmcp.com/getting-started/installation
+https://pypi.org/project/python-dotenv/
+https://imdbapi.dev/
+```
